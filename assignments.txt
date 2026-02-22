@@ -1,0 +1,5 @@
+assignment 1 22nd feb
+1. search and try different types of repo authentication (https/ssh)
+2. create branching strategies as discussed in class and also look for different branching strategies followed in companies
+3. find the difference between git pull and git fetch commands
+4. try git cheat commands
