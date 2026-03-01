@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('File Operations') {
+            steps {
+
+                // Step 1: Create directory1 and file inside it
+                sh 'mkdir Dir1'
+                sh 'echo "Hello Jenkins" > Dir1/file.txt'
+
+                // Step 2: Create directory2
+                sh 'mkdir Dir2'
+
+                // Step 3: Copy file from Dir1 to Dir2
+                sh 'cp Dir1/file.txt Dir2/'
+
+            }
+        }
+    }
+}
